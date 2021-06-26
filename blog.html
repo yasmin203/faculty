@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faculty</title>
+    <!-- <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+   
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#index.html"><img src="pics/logo3.png" alt="logo"></a> 
+            <div class="nav-bar" id="menu-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>   
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="course.html" >Courses</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+
+
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav> 
+            <h1>Our Certificats & Online Programs For 2021</h1>
+
+</section>
+<!-- -----------Blog------------------------ -->
+<section class="blog">
+    <div class="row">
+        <div class="blog-left">
+            <img src="pics/certificate.jpg">
+            <h2>Our Certificats & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cumque repellendus, nulla incidunt minus harum autem blanditiis laboriosam omnis corporis eum enim tempore, ea, placeat quas voluptatum facere nobis est.</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga consequatur eos minima ad quasi? Sunt possimus quibusdam ea et blanditiis minima in, aperiam ullam necessitatibus officia vel pariatur fuga. Dolorem!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime libero ipsam dolorem recusandae omnis reprehenderit sequi mollitia tenetur. Corporis consequatur excepturi fuga repudiandae non minus, rem recusandae nihil dicta?</p>
+
+            <!-- ----leave a comment------------ -->
+            <div class="comment">
+                <h3>Leave A Comment</h3>
+                <form action="get">
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="email" name="email" placeholder="Enter your E-mail">
+                    <textarea name="comment" id="com" cols="30" rows="10" placeholder="Write Your Comment"></textarea><br>
+
+                    <a href="#" class="view-more">Post Comment</Command> </a>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Information Systems</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Information Technology</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Big Data</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Information Systems</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Information Technology</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Big Data</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>20</span>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- -----------------------footer------------- -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam rerum voluptate nesciunt adipisci reiciendis corporis facere <br>molestiae dignissimos nemo, accusantium voluptates sapiente distinctio possimus quas assumenda consequatur dicta soluta accusamus.</p>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+    <h5>Made By  <i class="far fa-heart"></i>  In Home 2021
+    </h5>
+
+</section>
+   <!-- ----------------JS for menu ------------------ -->
+   <script>
+       var menulinks = document.getElementById("menu-links");
+
+       function showmenu(){
+        menulinks.style.right="0"; 
+
+       }
+
+       function hidemenu(){
+
+        menulinks.style.right="-200px";
+
+       }
+
+   </script>
+</body>
+</html>

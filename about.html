@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faculty</title>
+    <!-- <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+   
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#index.html"><img src="pics/logo3.png" alt="logo"></a> 
+            <div class="nav-bar" id="menu-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>   
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="course.html" >Courses</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+
+
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav> 
+
+
+            <h1>About Us</h1>
+         
+    </div>
+</section>
+<!-- -----------About us content------------------------ -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <img src="pics/about.jpg" alt="">
+        </div>
+        <div class="about-col">
+            <h1>header title</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta exercitationem libero dolore tenetur, distinctio laboriosam molestias quis neque recusandae! Quibusdam mollitia velit fuga culpa voluptas at in accusamus, eum expedita?</p>
+            <button class="view-more"> Explore More 
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- -----------------------footer------------- -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam rerum voluptate nesciunt adipisci reiciendis corporis facere <br>molestiae dignissimos nemo, accusantium voluptates sapiente distinctio possimus quas assumenda consequatur dicta soluta accusamus.</p>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+    <h5>Made By  <i class="far fa-heart"></i>  In Home 2021
+    </h5>
+
+</section>
+   <!-- ----------------JS for menu ------------------ -->
+   <script>
+       var menulinks = document.getElementById("menu-links");
+
+       function showmenu(){
+        menulinks.style.right="0"; 
+
+       }
+
+       function hidemenu(){
+
+        menulinks.style.right="-200px";
+
+       }
+
+   </script>
+</body>
+</html>

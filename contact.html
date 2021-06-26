@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faculty</title>
+    <!-- <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+   
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#index.html"><img src="pics/logo3.png" alt="logo"></a> 
+            <div class="nav-bar" id="menu-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>   
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="course.html" >Courses</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+
+            </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav> 
+            <h1>Contact Us</h1>
+
+</section>
+<!-- /* --------------------contact Page------------------- */ -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7257.80124866641!2d46.550422700000006!3d24.558096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2ssa!4v1624472911599!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+            <i class="fas fa-home"></i>
+            <span>
+                <h5>Our Address</h5>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </span>
+        </div>
+            <div>
+            <i class="fas fa-phone"></i>
+            <span>
+                <h5>Our Phone Number</h5>
+                <p> +0096601123456789</p>
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-envelope"></i>
+            <span>
+                <h5>E-mail us</h5>
+                <p>Email-address@hotmail.com </p>
+            </span>
+        </div>
+
+        </div>
+        
+        <div class="contact-col">
+           <form action="get">
+               <input type="text" name="name" placeholder="Enter Your Name" required>
+               <input type="email" name="email" placeholder="Enter Your email" required><input type="text" name="subject" placeholder="Enter Your subject" required>
+               <textarea name="message" id="sms"  cols="30" rows="10"></textarea>
+               <br>
+               <a href="#"> <button class="view-more">Send Message</button></a>
+           </form>
+        </div>
+    </div>
+
+</section>
+
+<!-- -----------------------footer------------- -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam rerum voluptate nesciunt adipisci reiciendis corporis facere <br>molestiae dignissimos nemo, accusantium voluptates sapiente distinctio possimus quas assumenda consequatur dicta soluta accusamus.</p>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+    <h5>Made By  <i class="far fa-heart"></i>  In Home 2021
+    </h5>
+
+</section>
+   <!-- ----------------JS for menu ------------------ -->
+   <script>
+       var menulinks = document.getElementById("menu-links");
+
+       function showmenu(){
+        menulinks.style.right="0"; 
+
+       }
+
+       function hidemenu(){
+
+        menulinks.style.right="-200px";
+
+       }
+
+   </script>
+</body>
+</html>
